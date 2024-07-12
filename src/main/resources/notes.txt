@@ -1,0 +1,51 @@
+curl "http://localhost:8080/edit-todo?id=10002&_csrf=vpJlG3g5FRCO6zV5CBDbGFi_A6cK9HwW78T4zx-t9Vv6lGWa3KAEK0tbIHaj3g0dPz3vIWqHLp44lh473aee-3uelzqerFyj" ^
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" ^
+  -H "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8" ^
+  -H "Cache-Control: max-age=0" ^
+  -H "Connection: keep-alive" ^
+  -H "Content-Type: application/x-www-form-urlencoded" ^
+  -H "Cookie: JSESSIONID=910F2913D6A66D1E290FEED320DF8390" ^
+  -H "Origin: http://localhost:8080" ^
+  -H "Referer: http://localhost:8080/edit-todo?id=10002&_csrf=vpJlG3g5FRCO6zV5CBDbGFi_A6cK9HwW78T4zx-t9Vv6lGWa3KAEK0tbIHaj3g0dPz3vIWqHLp44lh473aee-3uelzqerFyj" ^
+  -H "Sec-Fetch-Dest: document" ^
+  -H "Sec-Fetch-Mode: navigate" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "Sec-Fetch-User: ?1" ^
+  -H "Upgrade-Insecure-Requests: 1" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" ^
+  -H ^"sec-ch-ua: ^\^"Not/A)Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"126^\^", ^\^"Google Chrome^\^";v=^\^"126^\^"^" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  --data-raw "_csrf=mJ0lkMG_vgG1B3WqJR6vLVhZ0gKh9q3a5P4v1sJDDTPLVhaBoKgdo6CN2jSYZBaYEjObTzs__2PFxMz318satad2OwT6YiSw&username=sadek&description=random&targetDate=2024-06-26&done=on"
+  
+  curl "http://localhost:8080/edit-todo?id=10002&_csrf=ECkowYlvEJnI_lgbNqDTpJF3z3zY0tIiF4140fCBdGpzMcv2chtJ8boNJf_ly2B_AY3nnaNP4kXqsLAPJe4e5ZSyFgsXCfLP" ^
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" ^
+  -H "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8" ^
+  -H "Connection: keep-alive" ^
+  -H "Cookie: JSESSIONID=C867049B82C3C795A1E1F31BF4122D96" ^
+  -H "Referer: http://localhost:8080/list-todos" ^
+  -H "Sec-Fetch-Dest: document" ^
+  -H "Sec-Fetch-Mode: navigate" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "Sec-Fetch-User: ?1" ^
+  -H "Upgrade-Insecure-Requests: 1" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" ^
+  -H ^"sec-ch-ua: ^\^"Not/A)Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"126^\^", ^\^"Google Chrome^\^";v=^\^"126^\^"^" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^"
+  
+  curl "http://localhost:8080/edit-todo?id=10002&_csrf=vpJlG3g5FRCO6zV5CBDbGFi_A6cK9HwW78T4zx-t9Vv6lGWa3KAEK0tbIHaj3g0dPz3vIWqHLp44lh473aee-3uelzqerFyj" ^
+  -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7" ^
+  -H "Accept-Language: en-GB,en-US;q=0.9,en;q=0.8" ^
+  -H "Connection: keep-alive" ^
+  -H "Cookie: JSESSIONID=C867049B82C3C795A1E1F31BF4122D96" ^
+  -H "Referer: http://localhost:8080/list-todos" ^
+  -H "Sec-Fetch-Dest: document" ^
+  -H "Sec-Fetch-Mode: navigate" ^
+  -H "Sec-Fetch-Site: same-origin" ^
+  -H "Sec-Fetch-User: ?1" ^
+  -H "Upgrade-Insecure-Requests: 1" ^
+  -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" ^
+  -H ^"sec-ch-ua: ^\^"Not/A)Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"126^\^", ^\^"Google Chrome^\^";v=^\^"126^\^"^" ^
+  -H "sec-ch-ua-mobile: ?0" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^"
